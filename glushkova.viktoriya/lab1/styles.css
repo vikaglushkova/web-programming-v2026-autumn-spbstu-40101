@@ -28,8 +28,7 @@ body {
   align-items: center;
 }
 
-.pagination__item,
-.nav-item {
+.pagination-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,26 +44,22 @@ body {
   transition: background-color 0.2s ease;
 }
 
-.pagination__item:hover,
-.nav-item:hover {
+.pagination a:hover,
+.pagination-item:hover {
   background: #c8c8c8;
 }
 
-.pagination__item:focus-visible,
-.nav-item:focus-visible {
-  outline: 2px solid #0066ff;
+.pagination-item:focus-visible {
+  outline: 2px solid #06f;
   outline-offset: 2px;
 }
 
-.pagination__item--active,
-.active {
-  background: #0066ff;
+.pagination-item.active {
+  background: #06f;
   color: #fff;
 }
 
-.pagination__item--active:hover,
-.active:hover,
-.pagination__item.pagination__item--active:hover {
-  background: #0066ff;
+.pagination-item.active:hover {
+  background: #06f;
   color: #fff;
 }
